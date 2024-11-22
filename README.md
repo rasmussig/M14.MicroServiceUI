@@ -31,7 +31,8 @@ docker login
 ```
 ## Kør projektet med Docker Compose
  - Naviger til Staging-folderen:
- - Start miljøet: docker-compose up -d
+ - Start miljøet:
+``` bash docker-compose up -d ```
 
 ## Landing page
 http://localhost:4000/
