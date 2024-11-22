@@ -21,10 +21,7 @@ Dette projekt implementerer en microservice-løsning til et food catalog med bru
 ## Installation
 
 ### 1. Clone repository
-```bash
-git clone https://github.com/<your-username>/FoodCatalogMicroservice.git
-cd FoodCatalogMicroservice
-```
+
 ### 2. Log ind på Docker Hub
 ```bash
 docker login
