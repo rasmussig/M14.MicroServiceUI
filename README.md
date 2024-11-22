@@ -33,5 +33,39 @@ docker login
 docker-compose up -d
 ```
 
-## Landing page
+## Test API Endpoints
+Brug Postman eller lignende værktøj til at teste følgende endpoints:
+
+### 1. Få version af Catalog Service
+**GET**:  
+```http
+http://localhost:4000/catalog/version
+```
+### 2. Opret et nyt produkt
+**POST**:  
+```http
+http://localhost:4000/catalog/CreateProduct
+```
+**Body (JSON)**:
+```json
+{
+  "productCategory": 1,
+  "title": "Florida Green Tomatoes",
+  "description": "Tomatoes from Florida.",
+  "price": 2.75
+}
+```
+### 3. Hent produkter efter kategori
+**GET**:  
+```http
+http://localhost:4000/catalog/GetProductsByCategory?category=1
+```
+
+---
+
+## Landing Page
+Landing-pagen kan tilgås på:  
+```http
 http://localhost:4000/
+```
+
